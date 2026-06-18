@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "30 By ANT",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from participants undergoing nociceptive laser stimulation with concurrent pain ratings. Thirty laser stimuli of individually calibrated intensity were delivered to each participant, who provided verbal pain intensity ratings on a 0-10 scale. The study investigates the neural correlates of pain perception and subjective pain rating behavior during controlled nociceptive stimulation.",
-  "methods_description": "Participants received 30 laser stimulations at individually calibrated intensity levels (corresponding to an average pain rating of 7). Following each stimulus, participants provided verbal pain ratings on a scale from 0 (no sensation) to 10 (unbearable pain). Participants were instructed to maintain fixation on a crosshair while keeping eyes open. A 5-second inter-stimulus interval separated each trial, with subsequent trials beginning at random intervals after pain rating completion. Laser markers in the EEG data are delayed by 100ms.",
+  "description": "This dataset comprises EEG recordings from 30 participants who received laser stimulation at individually calibrated pain thresholds and provided verbal pain ratings. Participants underwent a series of laser stimuli while maintaining visual fixation on a crosshair, followed by subjective pain intensity ratings on a 0-10 scale. The dataset supports investigation of neural correlates of pain perception and subjective pain rating processes.",
+  "methods_description": "Participants received laser stimulation at intensities calibrated to produce an average pain rating of 7. Each participant underwent 30 laser stimuli trials with a 5-second inter-stimulus interval. After each stimulus, participants verbally rated pain intensity on a scale from 0 (no sensation) to 10 (unbearable pain). Participants were instructed to maintain visual fixation on a crosshair throughout stimulation. Laser markers in the EEG data are delayed by 100ms.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,16 +20,23 @@
       "term": "EEG"
     },
     {
-      "term": "pain perception"
-    },
-    {
-      "term": "nociception"
+      "term": "Pain Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D058748"
     },
     {
       "term": "laser stimulation"
     },
     {
+      "term": "Nociception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D059225"
+    },
+    {
       "term": "subjective pain rating"
+    },
+    {
+      "term": "sensory processing"
     }
   ],
   "related_identifiers": [
