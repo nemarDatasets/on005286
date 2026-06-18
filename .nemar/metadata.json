@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "30 By ANT",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from participants undergoing nociceptive laser stimulation with concurrent pain ratings. Thirty laser stimuli of individually calibrated intensity were delivered to each participant, who provided verbal pain intensity ratings on a 0-10 scale. The study investigates the neural correlates of pain perception and subjective pain rating behavior during controlled nociceptive stimulation.",
+  "methods_description": "Participants received 30 laser stimulations at individually calibrated intensity levels (corresponding to an average pain rating of 7). Following each stimulus, participants provided verbal pain ratings on a scale from 0 (no sensation) to 10 (unbearable pain). Participants were instructed to maintain fixation on a crosshair while keeping eyes open. A 5-second inter-stimulus interval separated each trial, with subsequent trials beginning at random intervals after pain rating completion. Laser markers in the EEG data are delayed by 100ms.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,24 @@
     "Bi Yanzhi": {},
     "Hu Li": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005286.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "pain perception"
+    },
+    {
+      "term": "nociception"
+    },
+    {
+      "term": "laser stimulation"
+    },
+    {
+      "term": "subjective pain rating"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005286",
       "identifier_type": "URL",
@@ -28,14 +42,19 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005286",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005286.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "20.8 GB (272 files)"
   ],
   "formats": [
     ".eeg",
@@ -46,26 +65,8 @@
     ".set",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises neuroimaging recordings from 30 participants who received laser stimulation at individually calibrated pain thresholds and provided verbal pain ratings. Participants underwent a series of laser stimuli while maintaining visual fixation, with pain intensity ratings collected on a 0-10 scale. The dataset is designed to investigate the neural correlates of pain perception and subjective pain rating processes.",
-  "methods_description": "Participants received laser stimulation at intensities calibrated to produce an average pain rating of 7. Each participant underwent 30 laser stimuli trials with a 5-second inter-stimulus interval. After each stimulation, participants verbally rated pain intensity on a scale from 0 (no sensation) to 10 (unbearable pain). Participants were instructed to maintain visual fixation on a crosshair during stimulation. Laser markers in the dataset are delayed by 100ms.",
-  "keywords": [
-    {
-      "term": "pain perception"
-    },
-    {
-      "term": "laser stimulation"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "subjective pain rating"
-    },
-    {
-      "term": "nociception"
-    }
-  ],
-  "source_hash": "3992538369fa9d28086965cca128deb2d4d8cf0c6ee0978f549d88bf3d6f8cb9"
+  "source_hash": "245166f376485c9590dcd02b53dc82424bc8ab2299a5dda2860a72f50e5c0c97"
 }
