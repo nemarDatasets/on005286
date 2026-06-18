@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005286",
-  "source": "openneuro",
-  "source_id": "ds005286",
+  "pipeline_stage": "validated",
   "title": "30 By ANT",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Zhao Xiangyue": {},
     "Zhou Jingyao": {},
@@ -13,21 +13,59 @@
     "Bi Yanzhi": {},
     "Hu Li": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005286.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005286",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005286",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".fdt",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises neuroimaging recordings from 30 participants who received laser stimulation at individually calibrated pain thresholds and provided verbal pain ratings. Participants underwent a series of laser stimuli while maintaining visual fixation, with pain intensity ratings collected on a 0-10 scale. The dataset is designed to investigate the neural correlates of pain perception and subjective pain rating processes.",
+  "methods_description": "Participants received laser stimulation at intensities calibrated to produce an average pain rating of 7. Each participant underwent 30 laser stimuli trials with a 5-second inter-stimulus interval. After each stimulation, participants verbally rated pain intensity on a scale from 0 (no sensation) to 10 (unbearable pain). Participants were instructed to maintain visual fixation on a crosshair during stimulation. Laser markers in the dataset are delayed by 100ms.",
+  "keywords": [
+    {
+      "term": "pain perception"
+    },
+    {
+      "term": "laser stimulation"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "subjective pain rating"
+    },
+    {
+      "term": "nociception"
+    }
+  ],
+  "source_hash": "3992538369fa9d28086965cca128deb2d4d8cf0c6ee0978f549d88bf3d6f8cb9"
 }
